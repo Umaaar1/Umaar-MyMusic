@@ -1,0 +1,144 @@
+footer {
+  background: black;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+.footer-nav {
+  width: 1200px;
+  padding: 0 24px;
+  position: relative;
+  margin: 0 auto;
+}
+.logo-footer {
+  display: inline-block;
+  width: 15%;
+}
+
+.logo-footer img {
+  width: 160px;
+}
+.company-links,
+.communities-links {
+  margin-bottom: 60px;
+}
+.company-links li,
+.communities-links li,
+.useful-links li {
+  color: white;
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.company-links li a:hover,
+.communities-links li a:hover,
+.useful-links li a:hover {
+  color: green;
+}
+.company-links li:first-child,
+.communities-links li:first-child,
+.useful-links li:first-child {
+  color: rgb(145, 144, 144);
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+}
+
+.footer-nav li:last-child {
+  margin-bottom: 0;
+}
+
+.social-icons {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  display: inline-block;
+  margin: 0 24px 0 auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.social-icons ul {
+  display: flex;
+}
+
+.social-icons ul li {
+  margin-right: 12px;
+  padding: 8px;
+  background: #222326;
+  border-radius: 50%;
+}
+
+.social-icons img {
+  width: 36.8px;
+  background: white;
+  display: block;
+}
+
+.social-icons img:hover {
+  background: green;
+}
+
+.country {
+  text-align: right;
+  margin-bottom: 12px;
+}
+
+.country a {
+  display: inline-block;
+}
+
+.country a:hover > span {
+  color: green;
+}
+
+.country span {
+  color: rgb(145, 145, 145);
+  vertical-align: super;
+}
+.country span,
+.bottom-links span {
+  font-size: 12px;
+}
+.country img {
+  width: 30px;
+  margin-left: 12px;
+}
+
+.bottom-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-links ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.bottom-links ul li {
+  margin-right: 41.6px;
+  padding: 16px 0;
+  font-size: 16px;
+}
+
+.bottom-links span {
+  padding: 16px 0;
+}
+
+.bottom-links a,.bottom-links span {
+  color: rgb(145, 145, 145);
+}
+.bottom-links a:hover {
+  color: green;
+}
+.top-links {
+  width: 50%;
+  display: inline-flex;
+  justify-content: space-between;
+}
+  .logo-footer,
+  .top-links,
+  .social-icons {
+    vertical-align: top;
+  }

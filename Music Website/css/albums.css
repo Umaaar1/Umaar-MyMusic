@@ -1,0 +1,85 @@
+.albums-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 80px 24px;
+  padding-bottom: 0;
+}
+.albums-container {
+  margin: 0 auto;
+  background-color: #2b867b;
+}
+.albums-cards-container {
+  display: flex;
+  overflow: visible;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  padding-left: 40px;
+}
+.album {
+  width: 33%;
+  min-width: 0;
+  padding-left: 20px;
+  box-sizing: border-box;
+  position: relative;
+  padding: 2px;
+}
+.album > img {
+  height: 100%;
+}
+.albums-content h2 {
+  font-size: 8px;
+}
+.album img {
+  width: 90%;
+  box-shadow: 5px 5px 20px -2px black;
+}
+.album-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  justify-content: center;
+  opacity: 0;
+  margin: 2px;
+  padding: 0 2px;
+  cursor: pointer;
+}
+.album-info h2 {
+  font-size: 38px;
+}
+.album-info h4 {
+  font-size: 18px;
+  color: gray;
+  margin: 12px 0;
+  margin-top: 2px;
+  font-weight: 400;
+}
+.album-info a {
+  font-size: 20px;
+  color: green;
+  font-weight: 700;
+  position: relative;
+  bottom: -10px;
+}
+.album-info:hover {
+  opacity: 80%;
+  background: black;
+  margin: 0px 40px 0px 2px;
+}
+.album-info a:hover {
+  color: greenyellow;
+}
+.album-info:hover > h2 {
+  color: #2b867b;
+  white-space: normal;
+  overflow: initial;
+  text-overflow: initial;
+}
